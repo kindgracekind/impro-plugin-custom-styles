@@ -1,0 +1,11 @@
+.custom-styles-textarea {
+  width: 100%;
+  min-height: 240px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.custom-styles-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "impro-plugin-custom-styles",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --format=esm --outfile=main.js",
+    "watch": "esbuild src/main.js --bundle --format=esm --outfile=main.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.10"
+  }
+}
