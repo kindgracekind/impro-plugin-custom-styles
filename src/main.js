@@ -3,7 +3,7 @@ import {
   Plugin,
   PluginSettingTab,
   StyleSnippet,
-} from "./pluginWorker.js";
+} from "@impro.social/impro-plugin";
 
 const DEFAULT_SETTINGS = {
   draft: "",

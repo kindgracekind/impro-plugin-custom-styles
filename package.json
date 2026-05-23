@@ -4,10 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "esbuild src/main.js --bundle --format=esm --outfile=main.js",
-    "watch": "esbuild src/main.js --bundle --format=esm --outfile=main.js --watch"
+    "start": "npm run watch",
+    "build": "esbuild src/main.js --bundle --format=cjs --outfile=main.js",
+    "watch": "esbuild src/main.js --bundle --format=cjs --outfile=main.js --watch"
   },
   "devDependencies": {
     "esbuild": "^0.25.10"
+  },
+  "dependencies": {
+    "@impro.social/impro-plugin": "npm:@atpkgs/didplc__bpyevhddfoledxzsxracdlkg__impro-plugin@latest"
   }
 }
